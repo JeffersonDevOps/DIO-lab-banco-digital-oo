@@ -6,6 +6,7 @@ public class Banco {
     private List<Conta> contaList;
 
 
+
     public String getNome() {
         return nome;
     }

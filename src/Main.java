@@ -11,5 +11,7 @@ public class Main {
         cc.transferir(100, cPoupanca);
         cc.imprimirExtrato();
         cPoupanca.imprimirExtrato();
+        cPoupanca.investirPoupanca(100);
+        cPoupanca.imprimirExtrato();
     }
 }

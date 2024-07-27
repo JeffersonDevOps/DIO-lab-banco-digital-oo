@@ -38,6 +38,11 @@ public abstract class Conta implements IConta{
         contaDestino.depositar(valor);
     }
 
+    @Override
+    public void investirPoupanca(double valor) {
+        this.saldo = valor * 3;
+    }
+
     public int getAgencia() {
         return agencia;
     }

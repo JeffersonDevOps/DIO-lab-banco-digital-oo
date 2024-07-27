@@ -1,9 +1,11 @@
 public interface IConta {
-    public void sacar(double valor);
+    void sacar(double valor);
 
-    public void depositar(double valor);
+    void depositar(double valor);
 
-    public void transferir(double valor, Conta contaDestino);
+    void transferir(double valor, Conta contaDestino);
 
-    public void imprimirExtrato();
+    void imprimirExtrato();
+
+    void investirPoupanca(double valor);
 }
